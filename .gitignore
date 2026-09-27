@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Generated offline/runtime assets (rebuilt by npm scripts)
+public/vendor/
+
+# Local automation, deployment, and planning state
+.planning/
+.playwright-cli/
+.playwright-mcp/
+.superpowers/
+.wrangler/
+output/
+
+# One-off local QA captures
+agent*-*.png
+a11y-*.png
+pdf-chef-ios-*.png
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

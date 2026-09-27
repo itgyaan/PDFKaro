@@ -1,0 +1,37 @@
+{
+  "name": "PDF Karo",
+  "short_name": "PDF Karo",
+  "description": "34 PDF tools that open, process and save your document on this device. No upload, no account, works offline.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8f5ef",
+  "theme_color": "#f8f5ef",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/pdf-chef-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pdf-chef-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Recent", "url": "/recent" },
+    { "name": "Compress PDF", "url": "/compress" },
+    { "name": "Merge PDF", "url": "/merge" }
+  ],
+  "file_handlers": [
+    {
+      "action": "/view",
+      "accept": { "application/pdf": [".pdf"] }
+    }
+  ]
+}
